@@ -9,7 +9,7 @@ requirejs(['ext_editor_io', 'jquery_190'],
             multipleArguments: true,
             functions: {
                 python: 'domino_chain',
-                //js: 'sumTwo'
+                js: 'dominoChain'
             }
         });
         io.start();

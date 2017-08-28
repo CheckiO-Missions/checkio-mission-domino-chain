@@ -39,10 +39,10 @@ api.add_listener(
         tests=TESTS,
         function_name={
             "python": "domino_chain",
-            #"js": "sumTwo"
+            "js": "dominoChain"
         },
         cover_code={
             'python-3': cover_codes.unwrap_args,
-            #'js-node': cover_codes.js_unwrap_args
+            'js-node': cover_codes.js_unwrap_args
         }
     ).on_ready)
